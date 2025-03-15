@@ -1,0 +1,641 @@
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+:root{
+
+
+    --c1: #0E0B16;
+    --c2: #A239CA;
+    --c3: #4717F6;
+    --c4: #E7DFDD;
+    --c5white: white;
+    --c6black: black;
+
+    --black_nochange: black;
+    --white_nochange: white;
+
+
+}
+
+body.withbg{
+  
+    margin: 0;
+    font-family: 'Poppins';
+    background-image: url('https://img.freepik.com/premium-photo/grocery-store-with-shelves-vegetables-berries-generative-ai_438099-16120.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: var(--c5white);
+
+}
+
+body.login{
+    background-color: var(--c4);
+    color: black;
+    font-family: 'Poppins';
+    margin: 0;
+
+}
+
+
+.navbar{
+    width: 100%;
+    background-color: var(--c1);
+    overflow: hidden;
+}
+
+.basket{
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 10px;
+    
+}
+
+.navbar a, .navbar img{ 
+    float:right;
+    color: var(--c5white);
+    padding: 10px;
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+
+#nav_logo{
+
+    
+    float: left;
+    color: var(--c5white);
+    margin-left:25%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    border: 5px solid white;
+
+
+}
+
+
+#nav_logo:hover{
+    background-color: var(--c1);
+}
+
+.navbar a:hover{
+    background-color: var(--c3);
+}
+.navbar a.active{
+    background-color: var(--c2);
+}
+
+.text_heading{
+    text-align: center;
+    font-size: 2em;
+    margin: auto;
+    width: 40%;
+}
+
+.text_desc{
+    width: 40%;
+    text-align: center;
+    margin: auto;
+}
+
+.shop_btn{
+    color: var(--c5white);
+    background-color: var(--c3);
+    width: 100px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid var(--c4);
+    border-radius: 99px;
+
+}
+
+.about_content{
+    color: var(--c5white);
+    margin: auto;
+    width: 40%;
+    background-color: var(--c1);
+    padding: 15px;
+    margin-top: 10%;
+    border: 2px solid var(--c4);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.customer_content{
+    color: var(--c5white);
+    margin: auto;
+    width: 40%;
+    background-color: var(--c1);
+    padding: 15px;
+    margin-top: 10%;
+    border: 2px solid var(--c4);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.loginContent{
+
+    width: 40%;
+    margin: auto;
+    margin-top: 10%;
+    background-color: var(--c1);
+    padding: 30px;
+    border-radius: 20px;
+    border: 5px solid var(--c2);
+
+}
+
+.login_return_btn{
+    color: var(--c5white);
+    text-decoration: none;
+    background-color: var(--c3);
+    padding: 10px;
+    border: 2px solid var(--c5white);
+    border-radius: 99px;
+
+}
+
+.return_btn{
+    color: var(--c5white);
+    text-decoration: none;
+    background-color: var(--c2);
+    padding: 10px;
+    border: 2px solid var(--c5white);
+    border-radius: 99px;
+
+}
+
+.list_card{
+    box-shadow: 0 4px 8px 0 black;
+    border-radius: 10px;
+    width: 150px;
+    background-color: white;
+}
+
+.list_card:hover{
+    box-shadow: 0 8px 16px 0 black;
+
+}
+
+.list_card_text_container{
+    color: black;
+    padding: 2px 8px;
+}
+.list_card_text_container p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Poppins';
+    font-size: small;
+    text-decoration: none;
+    color: black;
+}
+
+.list_card_price_text{
+    text-decoration: none;
+}
+
+
+
+.product_card_image{
+    
+    border-radius: 10px 10px 0 0;
+}
+
+.categories_product_container{
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    overflow: auto;
+    padding: 10px;
+}
+
+.categories_product_container a{
+    text-decoration: none;
+}
+
+.list_card_price_text{
+    display: flex;
+    justify-content: space-between;
+    align-items:baseline;
+}
+.categories_add_to_list_container{
+    display: flex; 
+    align-items: center; 
+    gap: 4px;
+    
+}
+
+
+
+/* product page */
+body.product {
+    font-family: 'Poppins';
+    margin: 0;
+}
+
+header.product {
+    margin: 20px;
+}
+.product-info button {
+    background-color: var(--c3);
+    color: var(--c5white);
+    width: 100px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    border-radius: 99px;
+    border-color: var(--c2);
+
+}
+
+.product-container {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.product-img img {
+    width: 500px;
+    height: 500px;
+}
+
+.product-info {
+    flex: 1;
+    text-align: left;
+    padding-left: 30px;
+}
+
+
+
+.start1 {
+
+    background-image: url(https://img.freepik.com/free-photo/supermarket-banner-concept-with-ingredients_23-2149421147.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    position: relative;
+    font-family: 'Poppins';
+    background-color: #f4f7f6;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Container for the form */
+.login-container1 {
+    background-color: #252323d6;
+    color: #f1f1f1;
+    position: absolute;
+    top: 25.4%;
+    left: 29.4%;
+    border-radius: 8px;
+    padding: 5px;
+    width: 470px;
+    height: 301px;
+    text-align: center;
+}
+
+/* Header styling */
+.heading1 {
+    font-size: 24px;
+    color: #eee7e7;
+    margin-bottom: 12px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+/* Input group styling */
+.input-group1 {
+    margin-bottom: 15px;
+    text-align: center;
+    
+}
+
+.labeling1 {
+    font-size: 14px;
+    color: #efebeb;
+    margin-bottom: 5px;
+    text-align: center;
+    
+}
+
+.inputing1 {
+    
+    padding: 10px;
+    width: 62%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    
+    
+}
+
+
+
+/* Button styling */
+.button-group1 {
+    margin-top: 20px;
+}
+
+.btn1 {
+    width: 50%;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #4e90fa;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+.btn1:hover {
+    background-color: #3579c7;
+}
+
+.register-btn1 {
+    background-color: #f1f1f1; 
+    color: #333;
+    margin-top: 10px;
+    width: 50%;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.register-btn1:hover {
+    background-color: #e0e0e0;
+}
+
+/* General body styling */
+.start3 {
+    font-family: 'Poppins';
+    background-color: var(--c1);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Center content styling */
+  .align {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 8px;
+    width: 320px;
+    text-align: center;
+  }
+  
+  /* Header styling */
+  .heading4 {
+    color: #333;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navigation styling */
+  .navig{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Link styling */
+  .anchor {
+    color: #0066cc;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .anchor:hover {
+    background-color: #0066cc;
+    color: #fff;
+  }
+
+  /* General body styling */
+.start5 {
+    font-family: 'Poppins';
+    background-color: var(--c1);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+  }
+  
+  /* Center content styling */
+  .align5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 8px;
+    width: 320px;
+    height: 270px;
+    position: relative;
+    border: 3px solid var(--c2);
+  }
+  
+  /* Header styling */
+  .heading5 {
+    color: #333;
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .para {
+    color: #666;
+    font-size: 14px;
+  }
+  
+  /* Form styling */
+  .forming {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  /* Label styling */
+  .labeling5{
+    font-size: 14px;
+    color: var(--c5white);
+    margin-bottom: 4px;
+  }
+  
+  /* Input field styling */
+  .inputing5 {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  
+  
+  /* Button styling */
+  .button5 {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: var(--c3);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    position: absolute;
+    left: 20.6%;
+    top: 85%;
+    
+  }
+  
+  .button5:hover {
+    background-color: #005bb5;
+  }
+  
+
+
+  .start {
+      background-image: url(https://t3.ftcdn.net/jpg/05/35/13/82/360_F_535138292_62ZnI4Hcw37J8Jaeg4E9TzJwUciCwSnp.jpg);
+      background-size: cover;
+      background-position: center;
+      margin: 0;
+      position: relative;
+      font-family: 'Poppins';
+      background-color: #f4f7f6;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 100vw;
+  }
+  
+  /* Container for the form */
+  .login-container {
+      border-radius: 8px;
+      padding: 20px;
+      width: 300px;
+      position: absolute;
+      left: 15%;
+      top: 4%;
+      border: solid black;
+  }
+
+  
+  
+  /* Header styling */
+  .heading2{
+      
+      font-size: 24px;
+      color: #f1ecec;
+      margin-bottom: 10px;
+      margin-top: 5px;
+      text-align: center;
+      
+  }
+  
+  /* Input group styling */
+  .input-group {
+      margin-bottom: 15px;
+      text-align: center;
+  }
+  
+  .label {
+      font-size: 14px;
+      color: #f1eded;
+      margin-bottom: 5px;
+      
+  }
+  
+  .input {
+      
+      padding: 10px;
+      width: 90%;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 14px;
+      
+      
+  }
+  
+  
+  
+  /* Button styling */
+  .button-group {
+      margin-top: 20px;
+      text-align: center;
+  }
+  
+  .btn {
+      width: 65%;
+      padding: 10px;
+      border-radius: 6px;
+      background-color: #4e90fa;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      text-align: center;
+      
+  }
+  
+  .btn:hover {
+      background-color: #3579c7;
+  }
+  
+  .backto-login {
+      background-color: #f1f1f1;
+      width: 65%;
+      height: 40px;
+      border-radius: 6px;
+      border: solid black;
+      color: #333;
+      margin-top: 10px;
+      cursor: pointer;
+  }
+  
+  .backto-login:hover {
+      background-color: #e0e0e0;
+  }
+  
+  
+  
+  
+  
+  
+  
+   
+
+
+
+
+
+
