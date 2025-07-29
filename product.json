@@ -1,0 +1,204 @@
+{
+    "products": [
+      {
+        "pid": 1,
+        "name": "Crunchy Chips",
+        "description": "Enjoy the perfect crunch with our SnackTime Crunchy Chips. Made from the finest potatoes, these chips are lightly salted for a deliciously savory snack. Perfect for sharing at parties, movie nights, or just for a quick snack on the go!",
+        "weight" : "140g",
+        "brand" : "Lays",
+        "imagepath": "https://polishfood.hk/wp-content/uploads/2021/01/17d0192fdcb12d9de0370a73a53e67908e4c5e605a947784bb1f74db55fcd58b.jpg",
+        "price": "$1.99",
+        "Ingredients" :"Potatoes, vegetable oil (canola, sunflower), salt, natural flavoring, chilli" ,
+        "category": "Snacks",
+        "subcategory": "Chips",
+        "Allergy Information" : "Contains no allergens"
+      },
+
+      {
+        "pid": 2,
+        "name": "cadbury",
+        "description": "Cadbury Dairy Milk Silk is all about regaling in the richness and creaminess of chocolate. Indulge in a rich, smooth, and creamy celebration.",
+        "weight" : "60g",
+        "brand" : "cadbury",
+        "imagepath": "https://m.media-amazon.com/images/I/71w7ppkACUL.jpg",
+        "price": "$1.0",
+        "Ingredients" :"Milk, sugar, cocao been" ,
+        "category": "Snacks",
+        "subcategory": "Chocolate",
+        "Allergy Information" : "Contains no allergens"
+      },
+
+      {
+        "pid": 3,
+        "name": "Coke Zero 355ml",
+        "description": "Enjoy the classic taste of Coca-Cola, a refreshing soft drink that has been loved by millions for generations. Perfect for any occasion, Coca-Cola is best served chilled and is the ideal partner for meals, snacks, or just as a treat on its own.",
+        "weight" : "355ml",
+        "brand" : "Coca-Cola",
+        "imagepath": "https://d1da7yrcucvk6m.cloudfront.net/sites/474/media/1168980_small_Coca-Cola_Zero_24x50.webp?1717143681",
+        "price": "$1.29",
+        "Ingredients" :"Carbonated water, high fructose corn syrup, caramel color, phosphoric acid, natural flavors, caffeine." ,
+        "category": "Drinks",
+        "subcategory": "Softdrinks",
+        "Allergy Information" : "Contains caffeine. Please enjoy responsibly."
+      },
+
+      {
+        "pid": 4,
+        "name": "Tasty Orange juice",
+        "description": "Refresh yourself with our Fresh Orange Juice made from 100% pure oranges. Packed with vitamins and bursting with flavor, this juice is perfect for breakfast, a midday boost, or any time you crave a refreshing drink.",
+        "weight" : "1L",
+        "brand" : "nutre",
+        "imagepath": "https://images-platform.99static.com/lnz3Ev1acDg9WGpjnv2-CQGK52g=/0x0:2000x2000/500x500/top/smart/99designs-contests-attachments/127/127533/attachment_127533869",
+        "price": "$1.49",
+        "Ingredients" :"100% pure orange juice, no added sugars or preservatives." ,
+        "category": "Drinks",
+        "subcategory": "Juices",
+        "Allergy Information" : "No known allergens."
+      },
+
+      {
+        "pid": 5,
+        "name": "Everfresh Cranberry",
+        "description": "Refresh yourself with our Fresh cranberry Juice made from 100% pure oranges. Packed with vitamins and bursting with flavor, this juice is perfect for breakfast, a midday boost, or any time you crave a refreshing drink.",
+        "weight" : "1L",
+        "brand" : "nutre",
+        "imagepath": "https://everfreshjuice.com/wp-content/uploads/2021/03/IMG-detail-cranberry.png",
+        "price": "$1.99",
+        "Ingredients" :"100% pure cranberry juice, no added sugars or preservatives." ,
+        "category": "Drinks",
+        "subcategory": "Juices",
+        "Allergy Information" : "No known allergens."
+      },
+
+      {
+        "pid": 6,
+        "name": "Peach Mango",
+        "description": "Refresh yourself with our Fresh Mango Juice made from 100% pure oranges. Packed with vitamins and bursting with flavor, this juice is perfect for breakfast, a midday boost, or any time you crave a refreshing drink.",
+        "weight" : "1L",
+        "brand" : "nutre",
+        "imagepath": "https://images.gotoliquorstore.com/product/1000066881/d110037d-7340-4581-93d9-ba84e379d5af_360_m.jpg",
+        "price": "$1.49",
+        "Ingredients" :"100% pure Mango juice, no added sugars or preservatives." ,
+        "category": "Drinks",
+        "subcategory": "Juices",
+        "Allergy Information" : "No known allergens."
+      },
+
+      {
+        "pid": 7,
+        "name": "Island Punch",
+        "description": "Refresh yourself with our Fresh Island Punch Juice made from 100% pure oranges. Packed with vitamins and bursting with flavor, this juice is perfect for breakfast, a midday boost, or any time you crave a refreshing drink.",
+        "weight" : "1L",
+        "brand" : "nutre",
+        "imagepath": "https://hr-liquors.com/cdn/shop/products/everfresh-island-punch-636_600x600.jpg?v=1650032688",
+        "price": "$2.49",
+        "Ingredients" :"100% pure Island Punch juice, no added sugars or preservatives." ,
+        "category": "Drinks",
+        "subcategory": "Juices",
+        "Allergy Information" : "No known allergens."
+      },
+
+      {
+        "pid": 8,
+        "name": "Fanta",
+        "description": "Refresh yourself with our Fresh Fanta made from 100% pure oranges. Packed with vitamins and bursting with flavor, this juice is perfect for breakfast, a midday boost, or any time you crave a refreshing drink.",
+        "weight" : "1L",
+        "brand" : "nutre",
+        "imagepath": "https://subfresh.de/files/getraenke/2024/01/Flasche-500ml-Fanta-orange.jpg",
+        "price": "$0.69",
+        "Ingredients" :"100% pure Fanta, no added sugars or preservatives." ,
+        "category": "Drinks",
+        "subcategory": "Softdrinks",
+        "Allergy Information" : "No known allergens."
+      },
+
+      {
+        "pid": 9,
+        "name": "Pepsi",
+        "description": "Refresh yourself with our Fresh Pepsi made from 100% pure oranges. Packed with vitamins and bursting with flavor, this juice is perfect for breakfast, a midday boost, or any time you crave a refreshing drink.",
+        "weight" : "1L",
+        "brand" : "nutre",
+        "imagepath": "https://italiangourmet.de/cdn/shop/files/pepsi-soft-drink-pepsi-max-zero-zucchero-senza-caffeina-ohne-koffein-ohne-zucker-1-5l-8001160005159-40902867026165.jpg?v=1726381565&width=1024",
+        "price": "$2.00",
+        "Ingredients" :"100% pure Pepsi" ,
+        "category": "Drinks",
+        "subcategory": "Softdrinks",
+        "Allergy Information" : "No known allergens."
+      },
+
+      {
+        "pid": 10,
+        "name": "Chipsfrish",
+        "description": "Enjoy the perfect crunch with our SnackTime chipfresh. Made from the finest potatoes, these chips are lightly salted for a deliciously savory snack. Perfect for sharing at parties, movie nights, or just for a quick snack on the go!",
+        "weight" : "140g",
+        "brand" : "Lays",
+        "imagepath": "https://static.office-discount.de/img/13/26/Zoom_m2584315.jpg?width=800&height=800&fit=contain&bg=ffffff",
+        "price": "$1.99",
+        "Ingredients" :"Potatoes, vegetable oil (canola, sunflower), salt, natural flavoring, chilli" ,
+        "category": "Snacks",
+        "subcategory": "Chips",
+        "Allergy Information" : "Contains no allergens"
+      },
+
+      {
+        "pid": 11,
+        "name": "Lays Classic",
+        "description": "Enjoy the perfect crunch with our SnackTime Lays classic. Made from the finest potatoes, these chips are lightly salted for a deliciously savory snack. Perfect for sharing at parties, movie nights, or just for a quick snack on the go!",
+        "weight" : "140g",
+        "brand" : "Lays",
+        "imagepath": "https://i5.walmartimages.com/seo/Lay-s-Classic-Potato-Chips-8-oz_f1852517-59f2-467f-b176-3ea1f2b098ae.a06a239111071c1595ab75cf3bf2323f.jpeg",
+        "price": "$1.49",
+        "Ingredients" :"Potatoes, vegetable oil (canola, sunflower), salt, natural flavoring, chilli" ,
+        "category": "Snacks",
+        "subcategory": "Chips",
+        "Allergy Information" : "Contains no allergens"
+      },
+
+      {
+        "pid": 12,
+        "name": "Doritos",
+        "description": "Enjoy the perfect crunch with our SnackTime Doritos. Made from the finest potatoes, these chips are lightly salted for a deliciously savory snack. Perfect for sharing at parties, movie nights, or just for a quick snack on the go!",
+        "weight" : "140g",
+        "brand" : "Lays",
+        "imagepath": "https://my-sweet-usa.de/cdn/shop/products/1117_96ddb270-0391-483e-990d-cd73c4a3720e_1024x.jpg?v=1663674684",
+        "price": "$2.19",
+        "Ingredients" :"Potatoes, vegetable oil (canola, sunflower), salt, natural flavoring, chilli" ,
+        "category": "Snacks",
+        "subcategory": "Chips",
+        "Allergy Information" : "Contains no allergens"
+      },
+
+      {
+        "pid": 13,
+        "name": "Milka Erdbeere",
+        "description": "Cadbury Dairy Milk Silk is all about regaling in the richness and creaminess of chocolate. Indulge in a rich, smooth, and creamy celebration.",
+        "weight" : "140g",
+        "brand" : "Lays",
+        "imagepath": "https://fooody4u.de/cdn/shop/files/4678abf6c8f7aeb0efbd6da72486e6c5-07622300291785_hstpocuz2xi_Mondelez_Milka_Erdbeere_Einzel_Fooody4u.jpg?v=1699290158",
+        "price": "$0.69",
+        "Ingredients" :"Milk, sugar, cocao been" ,
+        "category": "Snacks",
+        "subcategory": "Chocolate",
+        "Allergy Information" : "Contains no allergens"
+      },
+
+      {
+        "pid": 14,
+        "name": "Smarties",
+        "description": "Enjoy the smarties, all about regaling in the richness and creaminess of chocolate. Indulge in a rich, smooth, and creamy celebration.",
+        "weight" : "140g",
+        "brand" : "Lays",
+        "imagepath": "https://iwholesalecandy.ca/cdn/shop/products/nestle-smarties-chocolate-candies-wholesale-candy-toronto.jpg?v=1566063633",
+        "price": "$2.00",
+        "Ingredients" :"Milk, sugar" ,
+        "category": "Snacks",
+        "subcategory": "Chocolate",
+        "Allergy Information" : "Contains no allergens"
+      }
+
+      
+
+      
+    ]
+  }
+  
